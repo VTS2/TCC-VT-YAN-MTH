@@ -1,0 +1,81 @@
+/* Estilos para o container dos cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para os cards individuais */
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+}
+
+/* Estilos para a imagem no card */
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para o título no card */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo no card */
+.card-content {
+    padding: 10px;
+}
+
+/* Estilos para o botão no card */
+.card-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #555;
+}
+
+.price{
+    text-align: center;
+    align-items: center;
+    color: green;
+}
+
+.title{
+    align-items: center;
+    text-align: center;
+}
+.products-container{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 200px;
+}
+.filtroo{
+    align-items: center;
+    text-align: center;
+}
+.FiltoBarra{
+    margin-top: 100px;
+}

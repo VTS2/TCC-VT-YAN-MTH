@@ -1,0 +1,35 @@
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.bannerCat {
+    width: 100%;
+    height: 400px;
+}
+
+.banerArma {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.loginn {
+    display: flex;
+    border-radius: 15px;
+
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+
+}

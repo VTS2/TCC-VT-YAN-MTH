@@ -1,0 +1,60 @@
+
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+.register{
+    font-size: .9em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.loginc{
+    color: azure;
+}
+.loginbt{
+    justify-self: start;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.loginbt{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginbt:hover{
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    font-weight: 600;
+}
